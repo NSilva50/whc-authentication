@@ -1,22 +1,48 @@
-<form>
-  <div>
-    First Name: <br>
-    <input type="text"> <br>
-    Last Name: <br>
-    <input type="text">
+<div 
+  class="container mx-auto"
+  style="width: 50vw; text-align: center; margin-top: 15vh;"
+>
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>New Profile!</h1>
+      <form>
+          <div>
+            <input 
+              type="text"
+              placeholder="first name"
+            > <br>
+            <input 
+              type="text"
+              placeholder="last name"
+            >
+          </div>
+          <div>
+            <input 
+              type="email"
+              placeholder="email"
+            > <br>
+            <input 
+              type="text"
+              placeholder="username"
+            >
+          </div>
+          <div>
+            <input 
+              type="password"
+              placeholder="password"
+            > <br>
+            <strong>(Must be eight characters including one uppercase letter, one special character and alphanumeric characters)</strong> <br>
+            <input
+              
+              type="password" 
+              placeholder="confirm password"
+            >
+          </div>
+          <a 
+            routerLink=""
+            class="btn btn-primary"
+          >Good to go!</a>
+        </form>
+    </div>
   </div>
-  <div>
-    Email: (email will be sent for confirmation) <br>
-    <input type="email"> <br>
-    New Username: <br>
-    <input type="text">
-  </div>
-  <div>
-    Password: <br>
-    <strong>(Must be eight characters including one uppercase letter, one special character and alphanumeric characters)</strong> <br>
-    <input type="password"> <br>
-    Confirm Password: <br>
-    <input type="password">
-  </div>
-  <a routerLink="">Good to go!</a>
-</form>
+</div>

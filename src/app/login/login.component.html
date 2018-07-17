@@ -1,14 +1,16 @@
-<form>
-  <div>
-    User Email <br>
-    <input type="email">
+<div 
+  class="container mx-auto"
+  style="width: 50vw; text-align: center; margin-top: 25vh;"
+>
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Welcome!</h1>
+      <form>
+        <input type="email" placeholder="Email"> <br>
+        <input type="password" placeholder="Password">
+      </form>
+      <a routerLink="/Dashboard" class="btn btn-primary">Sign On</a>
+      <a routerLink="/Register" class="btn">Sign up?</a>
+    </div>
   </div>
-  <div>
-    Password <br>
-    <input type="password">
-  </div>
-  <a routerLink="/Dashboard">Sign On</a>
-</form>
-<div>
-  <a routerLink="/Register">Sign up?</a>
 </div>
